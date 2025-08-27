@@ -1,7 +1,9 @@
+# Backend App Servicios - Versión 2.1
+
 Este repositorio contiene el backend de una plataforma web que conecta prestadores de servicios con usuarios finales.  
 El enfoque del desarrollo es **profesional, escalable y seguro**, con una arquitectura modular en **Node.js + TypeScript** y base de datos en **MongoDB**.
 
-### Tecnologías principales
+## Tecnologías principales
 
 - **Node.js + Express** → servidor HTTP y API REST.
 - **TypeScript** → tipado estático y mayor robustez.
@@ -13,7 +15,7 @@ El enfoque del desarrollo es **profesional, escalable y seguro**, con una arquit
 - **Node-Cache** → caché en memoria (fácil de migrar a Redis).
 - **Jest + Supertest** → testing unitario e integración.
 
-### Qué hay ahora mismo
+## Qué hay ahora mismo
 
 - **Infraestructura lista:** conexión a base de datos, logging, cache, variables de entorno y Twilio configurados.
 - **Utilidades clave:** generación y verificación de tokens, envío de SMS, respuestas estandarizadas.
@@ -26,11 +28,10 @@ El enfoque del desarrollo es **profesional, escalable y seguro**, con una arquit
 
 - Rutas de usuarios (perfil, administración).
 - CRUD y búsquedas avanzadas de servicios.
-- Registro y métricas de clics (WhatsApp / teléfono).
 - Documentación de la API con **Swagger**.
 - Monitoreo, despliegue CI/CD y métricas en producción.
 
-### Filosofía del proyecto
+## Filosofía del proyecto
 
 - **Lenguaje en español neutro** en todo el backend para claridad.
 - **Código pensado para crecer:** modular, documentado y fácil de mantener.
